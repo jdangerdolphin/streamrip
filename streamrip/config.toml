@@ -58,7 +58,7 @@ quality = 2
 # An authentication cookie that allows streamrip to use your Deezer account
 # See https://github.com/nathom/streamrip/wiki/Finding-Your-Deezer-ARL-Cookie
 # for instructions on how to find this
-arl = ""
+arl = "a478716beb56bdd52fa66ea9092d7ef5e5bd60efa19a94fa9195d7fd89ad66505be21e3c681c02a7e081c37518ca8d739cc83b0d9cf12c01c777cbe2d86a2783d3cf4e4b090a2e4b583ce834c141339d98951d4bfbe88010dbf130c071981a1c"
 # This allows for free 320kbps MP3 downloads from Deezer
 # If an arl is provided, deezloader is never used
 use_deezloader = true
@@ -97,7 +97,7 @@ failed_downloads_path = ""
 [conversion]
 enabled = false
 # FLAC, ALAC, OPUS, MP3, VORBIS, or AAC
-codec = "ALAC"
+codec = "FlAC"
 # In Hz. Tracks are downsampled if their sampling rate is greater than this. 
 # Value of 48000 is recommended to maximize quality and minimize space
 sampling_rate = 48000
